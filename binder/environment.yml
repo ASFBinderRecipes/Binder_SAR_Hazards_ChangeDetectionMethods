@@ -1,0 +1,12 @@
+name: asf-jupyter-notebook
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - numpy
+  - matplotlib
+  - gdal
+  - pandas
+  - pip:
+      - awscli
